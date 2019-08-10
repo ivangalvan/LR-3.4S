@@ -4,4 +4,4 @@ R code and functions from: Galván‐Femenía I, Barceló‐i‐Vidal C, Sumoy L
 
 ![alt text](https://github.com/ivangalvan/LR-3.4S/blob/master/plots/k0_k1_plot.png)
 
-
+![alt text](https://github.com/ivangalvan/LR-3.4S/blob/master/plots/LR_FS_2nd_34S.png)
