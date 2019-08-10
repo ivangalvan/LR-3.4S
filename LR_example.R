@@ -53,7 +53,7 @@ pairs$cols = my_cols
 
 dir.create("plots")
 
-pdf("plots/k0_k1_plot.pdf",width = 6,height = 6)
+png("plots/k0_k1_plot.png",width = 6,height = 6,units = "in",res = 300)
 plot(pairs$Z0,pairs$Z1,col=my_cols,pch=16,xlab=expression(hat(k)[0]),ylab="",asp=1,xlim=0:1,ylim=0:1)
 legend("topright",
        c("2nd","3/4S","FS"), col=c("darkorchid2","black",
@@ -133,7 +133,7 @@ for(j in 1:nrow(pairs)){
 
 n_pairs = nrow(pairs)
 
-pdf("plots/LR_FS_2nd_34S.pdf",width = 8,height = 8)
+png("plots/LR_FS_2nd_34S.png",width = 8,height = 8,units = "in",res = 300)
 
 y_fs = jitter(rep(1,n_pairs))
 y_34s = jitter(rep(0,n_pairs))
@@ -172,8 +172,3 @@ legend("bottomright",c("2nd","3/4S","FS"),col=c("darkorchid2","black","dodgerblu
 text(cex=1, x=-0.021, y=c(1:(-1)), labs, xpd=TRUE, srt=0)
 
 dev.off()
-
-
-
-
-
