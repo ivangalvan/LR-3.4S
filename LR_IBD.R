@@ -1,4 +1,4 @@
-### Likelihood ratio taking accounting IBD probabilities ###########
+### Likelihood ratio accounting for IBD probabilities ###########
 
 ## p is the allele frequency of the allele A
 ## q is the allele frequency of the allele B
@@ -12,8 +12,8 @@
 # 1 is heterozogyte
 # 2 is minor homozygote
 
-## sample1: a numeirc vector of 0, 1 and 2 for the first individual
-## sample2: a numeirc vector of 0, 1 and 2 for the second individual
+## sample1: a numeric vector of 0, 1 and 2 for the first individual
+## sample2: a numeric vector of 0, 1 and 2 for the second individual
 ## maf: a numeric vector with the minor allele frequencies
 ## rel.num: the IBD probabilities of the relationship from the numerator
 ## rel.den: the IBD probabilities of the relationship from the denominator
