@@ -4,3 +4,6 @@ R code and functions from: Galván‐Femenía I, Barceló‐i‐Vidal C, Sumoy L
 
 
 ![alt text](https://github.com/ivangalvan/LR-3.4S/plots/k0_k1_plot.pdf)
+[embed]https://github.com/ivangalvan/LR-3.4S/plots/k0_k1_plot.pdf[/embed]
+
+[embed]http://example.com/file.pdf[/embed]
